@@ -16,6 +16,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/foto_google_pixel"
                 android:adjustViewBounds="true"
                 android:src="@drawable/pixel_google"
                 android:scaleType="fitXY"/>
