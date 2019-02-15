@@ -9,5 +9,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Cari jika action bar exist, jika iya maka set title nya
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle("Google Pixel");
+        }
     }
 }
